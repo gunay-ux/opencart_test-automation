@@ -1,35 +1,59 @@
 package testBase;
 
 import java.time.Duration;
+import java.util.ResourceBundle;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.annotations.Parameters;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
 	public WebDriver driver;
+	public Logger logger; //logging
+	public ResourceBundle rb;
 
 	@BeforeClass
-	public void setup()
-	{
-		//ChromeOptions options=new ChromeOptions();
-		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
-		
+	@Parameters("browser")
+	public void setup(String br)
+	{   
+		rb = ResourceBundle.getBundle("config"); //load config.properties file 
+		logger = LogManager.getLogger(this.getClass());
+	
+	
+	    /* the warning post header on the website doesn't come with it
+		ChromeOptions options=new ChromeOptions(); 
+		options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		driver=new ChromeDriver(options);*/
 		
+		if(br.equals("chrome"))
+		{
+			driver = new ChromeDriver();
+		}
+		else if(br.equals("edge")) {
+			
+			driver = new EdgeDriver();
+		}
+		else {
+			
+			driver = new FirefoxDriver();
+		}
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-		driver.get("http://localhost/opencart/upload/index.php");
-		
+		driver.get(rb.getString("appURL")); // driver took the URL in config.properties file
+		//driver.get("http://localhost/opencart/upload/index.php");
 		driver.manage().window().maximize();
 	}
 	

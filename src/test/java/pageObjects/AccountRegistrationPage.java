@@ -70,8 +70,7 @@ public class AccountRegistrationPage extends BasePage {
 		public void clickContinue() {
 		
 			btnContinue.click();
-			
-			
+				
 			
 		}
 
