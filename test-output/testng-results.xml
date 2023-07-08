@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-07T22:26:40 TRT" name="Suite" finished-at="2023-07-07T22:26:59 TRT" duration-ms="18927">
+  <suite started-at="2023-07-08T22:09:04 TRT" name="Suite" finished-at="2023-07-08T22:09:09 TRT" duration-ms="5645">
     <groups>
     </groups>
-    <test started-at="2023-07-07T22:26:40 TRT" name="ChromeTest" finished-at="2023-07-07T22:26:50 TRT" duration-ms="10168">
+    <test started-at="2023-07-08T22:09:04 TRT" name="test" finished-at="2023-07-08T22:09:09 TRT" duration-ms="5645">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5824a83d]" started-at="2023-07-07T22:26:40 TRT" name="setup" finished-at="2023-07-07T22:26:46 TRT" duration-ms="5711" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@537f60bf]" started-at="2023-07-08T22:09:04 TRT" name="setup" finished-at="2023-07-08T22:09:07 TRT" duration-ms="3270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,46 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5824a83d]" started-at="2023-07-07T22:26:46 TRT" name="test_account_Registration" finished-at="2023-07-07T22:26:50 TRT" duration-ms="4164" status="PASS">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@537f60bf]" started-at="2023-07-08T22:09:07 TRT" name="test_account_Registration" finished-at="2023-07-08T22:09:09 TRT" duration-ms="1877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5824a83d]" started-at="2023-07-07T22:26:50 TRT" name="tearDown" finished-at="2023-07-07T22:26:50 TRT" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@537f60bf]" started-at="2023-07-08T22:09:09 TRT" name="tearDown" finished-at="2023-07-08T22:09:09 TRT" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5824a83d]" started-at="2023-07-07T22:26:50 TRT" name="tearDown" finished-at="2023-07-07T22:26:50 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@537f60bf]" started-at="2023-07-08T22:09:09 TRT" name="tearDown" finished-at="2023-07-08T22:09:09 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-07-07T22:26:40 TRT" name="FirefoxTests" finished-at="2023-07-07T22:26:59 TRT" duration-ms="18926">
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@7674f035]" started-at="2023-07-07T22:26:40 TRT" name="setup" finished-at="2023-07-07T22:26:54 TRT" duration-ms="13856" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@7674f035]" started-at="2023-07-07T22:26:54 TRT" name="test_account_Registration" finished-at="2023-07-07T22:26:57 TRT" duration-ms="3128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@7674f035]" started-at="2023-07-07T22:26:57 TRT" name="tearDown" finished-at="2023-07-07T22:26:59 TRT" duration-ms="1877" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@7674f035]" started-at="2023-07-07T22:26:59 TRT" name="tearDown" finished-at="2023-07-07T22:26:59 TRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-    </test> <!-- FirefoxTests -->
+    </test> <!-- test -->
   </suite> <!-- Suite -->
 </testng-results>
