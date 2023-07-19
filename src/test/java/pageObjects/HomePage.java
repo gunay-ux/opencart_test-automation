@@ -11,13 +11,15 @@ public class HomePage extends BasePage {
 	}
 
 	// Elements
-	@FindBy(xpath = "//span[text()='My Account']")
+	@FindBy(xpath = "//span[normalize-space()='My Account']")
+	//span[normalize-space()='My Account']
+	//span[text()='My Account']
 	WebElement lnkMyaccount;
 
 	@FindBy(linkText = "Register")
 	WebElement lnkRegister;
 	
-	@FindBy(linkText = "Login")
+	@FindBy(xpath = "//a[@class='dropdown-item'][normalize-space()='Login']")
 	WebElement lnkLogin;
 
 	// Action Methods

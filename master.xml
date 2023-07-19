@@ -4,12 +4,14 @@
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager"></listener> 
 	</listeners>
-  <test thread-count="5" name="test">
+  <test name="test">
 	  <parameter name="browser" value="chrome"></parameter>
 	  <classes>
-      <!--  <class name="testBase.BaseClass"/> -->
+		  
+      <!-- <class name="testBase.BaseClass"/>
       <class name="testCases.TC_001_AccountRegistrationTest"/>
-      <class name="testCases.TC_002_LoginTest"/>
+      <class name="testCases.TC_002_LoginTest"/>-->
+      <class name="testCases.TC_003_LoginDataDrivenTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
