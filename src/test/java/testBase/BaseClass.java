@@ -29,7 +29,7 @@ public class BaseClass {
 	public Logger logger; //logging
 	public ResourceBundle rb;
 
-	@BeforeClass
+	@BeforeClass(groups = { "Master", "Sanity", "Regression" }) 
 	@Parameters("browser")
 	public void setup(String br)
 	{   
@@ -64,10 +64,10 @@ public class BaseClass {
 	}
 	
 	
-	@AfterClass
+	@AfterClass(groups = { "Master", "Sanity", "Regression" })
 	public void tearDown()
 	{
-		driver.close();
+		driver.quit();
 	}
 	
 	public String randomeString() {

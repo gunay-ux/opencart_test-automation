@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T10:36:31 TRT" name="Suite" finished-at="2023-07-19T10:37:12 TRT" duration-ms="41250">
+  <suite started-at="2023-07-21T21:12:53 TRT" name="Suite" finished-at="2023-07-21T21:13:48 TRT" duration-ms="54293">
     <groups>
     </groups>
-    <test started-at="2023-07-19T10:36:31 TRT" name="test" finished-at="2023-07-19T10:37:12 TRT" duration-ms="41250">
+    <test started-at="2023-07-21T21:12:53 TRT" name="ChromeTest" finished-at="2023-07-21T21:13:37 TRT" duration-ms="43620">
       <class name="testCases.TC_003_LoginDataDrivenTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:36:31 TRT" name="setup" finished-at="2023-07-19T10:36:34 TRT" duration-ms="3087" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:12:53 TRT" name="setup" finished-at="2023-07-21T21:12:58 TRT" duration-ms="4483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:36:36 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-19T10:36:37 TRT" duration-ms="1606" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:00 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:02 TRT" duration-ms="2258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:36:37 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-19T10:36:48 TRT" duration-ms="10870" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:02 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:13 TRT" duration-ms="11172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:36:48 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-19T10:36:59 TRT" duration-ms="11134" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:13 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:24 TRT" duration-ms="10914" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:36:59 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-19T10:37:10 TRT" duration-ms="11230" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:24 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:35 TRT" duration-ms="11099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:37:10 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-19T10:37:12 TRT" duration-ms="1555" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:35 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:37 TRT" duration-ms="1595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,135 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@25641d39]" started-at="2023-07-19T10:37:12 TRT" name="tearDown" finished-at="2023-07-19T10:37:12 TRT" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@4a883b15]" started-at="2023-07-21T21:13:37 TRT" name="tearDown" finished-at="2023-07-21T21:13:37 TRT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
-    </test> <!-- test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-21T21:12:53 TRT" name="FirefoxTests" finished-at="2023-07-21T21:13:48 TRT" duration-ms="54293">
+      <class name="testCases.TC_003_LoginDataDrivenTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:12:53 TRT" name="setup" finished-at="2023-07-21T21:13:07 TRT" duration-ms="13548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:08 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:11 TRT" duration-ms="2414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:11 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:22 TRT" duration-ms="11265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:22 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:33 TRT" duration-ms="11403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:33 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:45 TRT" duration-ms="11241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:45 TRT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-07-21T21:13:46 TRT" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@8f2ef19]" started-at="2023-07-21T21:13:46 TRT" name="tearDown" finished-at="2023-07-21T21:13:48 TRT" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+    </test> <!-- FirefoxTests -->
   </suite> <!-- Suite -->
 </testng-results>
